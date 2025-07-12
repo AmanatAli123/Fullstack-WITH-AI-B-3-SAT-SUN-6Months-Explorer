@@ -142,7 +142,7 @@ print("# Case 2 : using .loc with index_col - starts here")
 # Case 2 : using .loc with index_col - starts here
 # Second cycle - with index_col as property_id
 # Why Second cycle - Note Index - , index_col='property_id'
-df_index_col = pd.read_csv('Week2/zameencom-property-data-By-Kaggle-short.csv',delimiter=";",parse_dates=[14], date_format={'date_added': '%d-%m-%Y'} , index_col='property_id')
+df_index_col = pd.read_csv('Week3/zameencom-property-data-By-Kaggle-short.csv',delimiter=";",parse_dates=[14], date_format={'date_added': '%d-%m-%Y'} , index_col='property_id')
 
 print(df_index_col)
 print(df_index_col.dtypes)
